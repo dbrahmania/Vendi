@@ -1,24 +1,28 @@
 {
-  "name": "vendi_server",
+  "name": "auth-server",
   "version": "1.0.0",
-  "description": "AuthServer with APIs ",
+  "description": "JWT authentication server",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepak-brahmania"
+  },
   "keywords": [
+    "authentication",
     "node",
-    "javascript",
-    "mongodb"
+    "JWT"
   ],
+  "author": "Deepak Brahmania",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.2.17"
-  },
-  "author": "deepak-brahmania",
-  "license": "ISC"
+  }
 }
